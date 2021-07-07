@@ -1,0 +1,83 @@
+.fondo{
+    height: 40rem;
+    width: 40rem;
+    background-color: #2D2D2A;
+    border-radius: 22%;
+    margin-left: 29rem;
+  }
+  .cabeza{
+      width: 20rem;
+      height: 22rem;
+      position: relative;
+      top: 4rem;
+      left: 10rem;
+      background-color: #FF1B1C;
+      border-radius: 7rem 7rem 0 0;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+  }
+  .pierna {
+      width: 9rem;
+      height: 10rem;
+      background-color: #FF1b1c;
+      position: absolute;
+      top: -2rem;
+      border-radius: 0 0 4rem 4rem;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+  } 
+  /*
+  .cabeza::after{
+      left: 11rem;
+  }*/
+  .visor{
+    width: 12rem;
+      height: 7.5rem;
+      background-color: #5a9ca9;
+      border-radius: 50%;
+      position: relative;
+      top: 3rem;
+      left: 1.5rem;
+      z-index: 1;
+    border: 3px solid black;
+  }
+  .sombra {
+    width: 10rem;
+      height: 5.5rem;
+      background-color: #93e2f2;
+      border-radius: 50%;
+      position: relative;
+      left: 1rem;
+      z-index: 1;
+  }
+  .luz {
+    width: 7rem;
+      height: 3rem;
+      background-color: #d8f7fd;
+      border-radius: 40%;
+      position: absolute;
+    top: 0.5rem;
+      left: 2.5rem;
+      z-index: 1;
+  }
+  
+  .uno {
+    top: 26.5rem;
+    left: 39.5rem;
+  }
+  .dos {
+    top: 26.5rem;
+    left: 50.5rem;
+  }
+  
+  .abajo {
+    width: 2rem;
+    height: 3rem;
+    background-color: #ff1b1c;
+    border-bottom: 3px solid black;
+    position: absolute;
+    left: 9rem;
+    top: 19rem;
+  }
